@@ -3,26 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 form{
     margin: 0 auto;
     margin-top: 50px;
     width: 600px;
     background-color: lightblue;
 }
-
 div.form-group:first-child{
     margin-top: 20px;
     text-align: center;
     padding-top: 12px;
 }
-
 div.form-group > label, div.form-group >
 imput{
     display: block;
     margin-bottom: 12px;
 }
-
 imput{
     padding: 6px 3px;
     width: 90%;
@@ -47,7 +43,6 @@ button:hover{
     border: 1px solid brown;
     transition: backgraund-color 8s, color 8s, border 8s;
 }
-
 input[type="checkbox"]:checked { 
 }
  .envolvente:has(input[type="checkebox"]:checked)
@@ -55,12 +50,10 @@ input[type="checkbox"]:checked {
     background-color: #d0f0e0;
     border: 2px solid green;
  }
-
  .form-group{
     text-align: center;
     margin-top: 20px;
  }
-
  .form-group >input{
     display: inline-block;
     width: 90%;
