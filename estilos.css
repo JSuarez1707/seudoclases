@@ -68,5 +68,5 @@ input[type="checkbox"]:checked {
  }
  .form-group > label{
     display: block;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
  }
