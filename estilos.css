@@ -3,32 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 form{
     margin: 0 auto;
     margin-top: 50px;
     width: 600px;
-    background-color: lightblue;
+    background-color: lightgray;
 }
+
 div.form-group:first-child{
     margin-top: 20px;
     text-align: center;
     padding-top: 12px;
 }
-div.form-group > label, div.form-group >
-imput{
+
+div.form-group > label, div.form-group > imput{
     display: block;
     margin-bottom: 12px;
 }
+
 imput{
     padding: 6px 3px;
     width: 90%;
     margin: 0 auto;
     display: block;
 }
+
 button{
     display: block;
     margin: 0 auto;
-    background-color:aqua;
+    background-color: cadetblue;
     color: white;
     border: 1px solid brown;
     padding: 10px 20px;
@@ -62,4 +66,8 @@ input[type="checkbox"]:checked {
  .form-group > label{
     display: block;
     margin-bottom: 12px;
+ }
+ imput:invalid{
+    border: 2px solid rgb(115, 1, 1);
+    background-color: rgb(234, 97, 97);
  }
