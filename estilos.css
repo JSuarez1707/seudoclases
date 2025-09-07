@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(225, 205, 245, 0.40);    
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,19 +17,20 @@ form{
 
 div.form-group:first-child{
     margin-top: 20px;
-    text-align: center;
-    padding-top: 12px;
+    text-align: left;
+    padding-top: 20px;
 }
 
-div.form-group > label, div.form-group > imput{
+div.form-group > label , 
+div.form-group > imput{
     display: block;
     margin-bottom: 12px;
 }
 
-imput{
+input{
     padding: 6px 3px;
     width: 90%;
-    margin: 0 auto;
+    margin: 0;
     display: block;
 }
 
@@ -39,7 +44,8 @@ button{
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
-    transition: backgraund-color 3s, color 3s, border 3s;
+    /* transition: backgraund-color 10s, color 10s, border 10s; */
+    transition: all 1s;
 }
 button:hover{
     background-color: brown;
@@ -47,15 +53,17 @@ button:hover{
     border: 1px solid brown;
     transition: backgraund-color 8s, color 8s, border 8s;
 }
-input[type="checkbox"]:checked { 
+
+.input[type="checkbox"]:checked{ 
 }
+
  .envolvente:has(input[type="checkebox"]:checked)
  {
     background-color: #d0f0e0;
     border: 2px solid green;
  }
  .form-group{
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
  }
  .form-group >input{

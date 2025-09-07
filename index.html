@@ -11,21 +11,44 @@
     <form action="">
     <div class="form-group">
         <label: for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required>          
+        <input type="text" name="Nombre" id="nombre" required>          
     </div>
     <div class="form-group">
         <label for="apellidos">Apellidos</label>
-        <input type="text" id="apellidos" required>
+        <input type="text" name="nombre" id="apellidos" required>
     </div>
     <div class="form-group">
         <label for="fecha">Fecha de nacimiento</label>
-        <input type="date" id="fecha" required>
+        <input type="date" name="nombre" id="fecha" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-group">
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" required>
     </div>
     <div class="form-group">
         <label for="guardar datos">¿Guardar datos?</label>
-        <input type="checkbox" id="guardar datos">
+        <input type="checkbox" name="guardar datos" id="guardar datos">
     </div>
-    <button>Validar</button>
+
+    <label for="mostrar mensaje" class="mostrar-mensaje">Haz click en el mensaje</label>
+    <input type="checkbox" id="mostrar-mensaje" style="display: none;" />
+
+    <div id="mensaje" class="mensaje">
+        Encontraste a pandora
+    </div>
+    <div class="contenedor">
+        <p>Primer parrafo</p>
+        <p>Segundo parrafo</p>
+        <p>Tercer parrafo</p>
+    </div>
+    <div class="form-group">
+        <button type="submit">Enviar</button>
+    </div>
+    
     </form
     </div>
 </body>
