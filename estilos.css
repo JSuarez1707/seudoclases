@@ -22,7 +22,7 @@ div.form-group:first-child{
 }
 
 div.form-group > label , 
-div.form-group > imput{
+div.form-group > input{
     display: block;
     margin-bottom: 12px;
 }
@@ -39,7 +39,7 @@ button{
     margin: 0 auto;
     background-color: cadetblue;
     color: white;
-    border: 1px solid brown;
+    border: 1px solid cadetblue;
     padding: 10px 20px;
     border-radius: 10px;
     font-size: 18px;
@@ -54,8 +54,23 @@ button:hover{
     transition: backgraund-color 8s, color 8s, border 8s;
 }
 
-.input[type="checkbox"]:checked{ 
+button,.submit-button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }
+
+.mensaje {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.input[type="checkbox"]:checked {}
+
 
  .envolvente:has(input[type="checkebox"]:checked)
  {
@@ -75,7 +90,80 @@ button:hover{
     display: block;
     margin-bottom: 12px;
  }
- imput:invalid{
+ input:invalid{
     border: 2px solid rgb(115, 1, 1);
     background-color: rgb(234, 97, 97);
  }
+ .mensaje {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+ }
+
+#mostrar-mensaje:checked + #mensaje {
+    display: block;
+    margin-top: 20px;
+}
+.mensaje{
+    text-align: center;
+    margin: 0 auto;
+}
+.mostrar-mensaje {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.contenedor p:first-child {
+    color: red;
+    font-weight: bold;
+}
+.contenedor {
+    text-align: center;
+    margin: 20px o;
+}
+input[type="email"]{
+    border: 2px solid red;
+    background-color: #f9f9f9;
+}
+input:focus {
+    border: 2px solid yellow;
+    outline: none;
+    background-color: beige;
+    transition: border 0.3s ease, backgraund-color 0.3s ease;
+}
+input[.input[type="email"]:only-of-type {
+    border: 2px solid blue;
+    background-color: aliceblue;
+    color: rgb(155, 127, 255);
+}
+div.form-group:first-of-type{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 12px;
+    color: #d0f0e0;
+    background-color: rgb(155, 127, 255);
+}
+:root {
+    --color-principal: rgb(70, 212, 31);
+}
+nav.menu-principal {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+}
+nav.menu-principal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav.menu-principal li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav.menu-principal a{
+    text-decoration: none;
+    
+}
